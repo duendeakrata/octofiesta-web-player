@@ -12,20 +12,14 @@ installs.
 
 ## Screenshots
 
-<!-- Add your screenshots to docs/screenshots/ and uncomment the lines below. -->
+<!-- Images live in docs/screenshots/ -->
 
-<!--
 <p align="center">
   <img src="docs/screenshots/home.png" alt="Home" width="45%"/>
-  <img src="docs/screenshots/player.png" alt="Player and lyrics" width="45%"/>
+  <img src="docs/screenshots/config.png" alt="Configuration" width="45%"/>
 </p>
 <p align="center">
-  <img src="docs/screenshots/extension.png" alt="Chrome extension popup" width="30%"/>
-</p>
--->
-
-<p align="center">
-  <em>(Screenshot 1 — Home)</em> · <em>(Screenshot 2 — Player / Search)</em> · <em>(Screenshot 3 — Extension popup)</em>
+  <img src="docs/screenshots/pop-up.png" alt="Chrome extension popup" width="30%"/>
 </p>
 
 ## Features
