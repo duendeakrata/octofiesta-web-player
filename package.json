@@ -1,0 +1,20 @@
+{
+  "name": "octofiesta-web-player",
+  "version": "1.0.0",
+  "description": "Reproductor web (cliente Subsonic) para el proxy octo-fiesta: musica local de Navidrome y streaming (Deezer, Qobuz, SquidWTF, Yandex).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js 3000"
+  },
+  "keywords": [
+    "octo-fiesta",
+    "subsonic",
+    "navidrome",
+    "deezer",
+    "qobuz",
+    "web-player",
+    "music"
+  ],
+  "author": "duendeakrata",
+  "license": "MIT"
+}

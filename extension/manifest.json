@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "OctoFiesta Web Player",
+  "version": "1.4.1",
+  "description": "Reproductor web para octo-fiesta: musica local de Navidrome y streaming (Deezer, Qobuz, SquidWTF, Yandex).",
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+  "action": {
+    "default_title": "OctoFiesta Web Player",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

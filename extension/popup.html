@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="pop">
+    <div class="head">
+      <div class="logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+      </div>
+      <span class="app">OctoFiesta</span>
+      <button id="btn-big" class="btn-big" title="Abrir en grande en una pestaña" data-i18n="popup_open_tab">Abrir en pesta&ntilde;a</button>
+    </div>
+
+    <div id="cover-wrap" class="cover">
+      <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
+      <img id="cover" alt="" hidden>
+    </div>
+
+    <div id="title" class="title" data-i18n="no_track">Sin reproducci&oacute;n</div>
+    <div id="artist" class="artist" data-i18n="popup_open_hint">Abre el reproductor en una pesta&ntilde;a</div>
+
+    <div class="controls">
+      <button id="btn-prev" class="ctl" data-i18n-title="btn_previous" title="Anterior">
+        <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M20 4l-10 8 10 8V4z"/><rect x="5" y="4" width="3" height="16" rx="1"/></svg>
+      </button>
+      <button id="btn-toggle" class="ctl play" data-i18n-title="btn_play_pause" title="Reproducir / Pausar">
+        <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      </button>
+      <button id="btn-next" class="ctl" data-i18n-title="btn_next" title="Siguiente">
+        <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M4 4l10 8-10 8V4z"/><rect x="16" y="4" width="3" height="16" rx="1"/></svg>
+      </button>
+    </div>
+
+    <div class="seek-row">
+      <span id="cur" class="t">0:00</span>
+      <input id="seek" type="range" min="0" max="1000" value="0" step="1">
+      <span id="dur" class="t">0:00</span>
+    </div>
+
+    <div class="vol-row">
+      <svg class="vol-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+      <input id="vol" type="range" min="0" max="100" value="80" step="1">
+    </div>
+
+    <div id="status" class="status"></div>
+  </div>
+  <script src="js/i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
